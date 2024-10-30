@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    background: #EEEEEE;
+}
+
+h1 {
+    background: #222831;
+    color: #EEEEEE;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #31363F;
+    color: #31363F;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.boton:hover {
+    border: 1px solid #76ABAE;
+    color: #76ABAE;
+    box-shadow: 0px 3px 3px 0px;
+    cursor: pointer;
+}
+
+.submenu{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.submenu input[type = 'button'] {
+    margin-left: auto;
+}
+
+
+.submenu  #buscar{
+    padding: 2px;
+    margin-left: 10px;
+    border: 1px solid #31363F;
+    border-radius: 10px;
+}
+
+#contenido {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tabla {
+    margin: 10px;
+    font-family: sans-serif;
+    border: 1px solid #31363F;
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+.forms div{
+    display: flex;
+    justify-content: center;
+}
+
+.forms table {
+    border: 1px solid #31363F;
+    padding: 15px;
+}
+
+.forms table tr th {
+    padding: 5px;
+    margin: 5px;
+}
+
+.forms table tr td {
+    text-align: end;
+    padding: 5px;
+    margin: 5px;
+}
+
+#logout {
+    margin: 0px;
+    background: #31363F;
+    text-align: center;
+    padding: 10px;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+#logout:hover{
+    color: #76ABAE;
+    text-decoration: underline;
+    cursor: pointer;
+}
